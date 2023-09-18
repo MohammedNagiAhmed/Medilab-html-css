@@ -4,6 +4,11 @@
 /************************* 01 Header Section *************************/
 @import "./header.css";
 
+
+
+/************************* 001 first Section *************************/
+@import "./first_section.css";
+
 /************************* 02 Welcome  Section *************************/
 @import "./welcome_section.css";
 
