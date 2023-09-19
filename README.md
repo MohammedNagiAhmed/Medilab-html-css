@@ -1,6 +1,6 @@
 
 # Demo
 
-- [This project was made with only HTML & CSS](https://mohamednagyzen.github.io/html-css-project/)
+- [This project was made with only HTML & CSS](https://medilab-html-css.vercel.app/)
 
 - ![](./project.png)
