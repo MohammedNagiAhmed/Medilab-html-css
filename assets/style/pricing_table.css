@@ -1,0 +1,101 @@
+.pricing-header{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.pricing-header .section-title {
+  font-size: 35px;
+  text-transform: capitalize;
+  margin-bottom: 9px;
+  margin-top: 6px;
+}
+.pricing-continer {
+  width: 80%;
+  margin: auto;
+}
+
+.pricing-header .line {
+  display: block;
+  width: 62px;
+  height: 4px;
+  background-color: royalblue;
+  margin: 0 auto 70px auto;
+}
+
+div {
+  display: block;
+}
+
+
+.pricing-item {
+  float: left;
+  width: 30%;
+  padding: 30px 15px;
+  border: 1px solid #a8a8a8;
+  text-align: center;
+  position: relative;
+}
+
+.pricing-item-text {
+  text-transform: uppercase;
+  font-size: 21px;
+  color: #999;
+}
+
+.pricing-item-permonth {
+  width: 100px;
+  height: 100px;
+  padding: 12px 0;
+  margin: 20px auto;
+  border: 2px solid #6195ff;
+  border-radius: 50%;
+}
+.doller {
+  font-size: 50px;
+}
+
+.month {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.pricing-list {
+  list-style: none;
+}
+
+.pricing-item-purchase {
+  border: 2px solid #6195ff;
+  margin: auto;
+  padding: 4px;
+  display: block;
+  width: 120px;
+  margin-top: 15px;
+  transition: color 0.5s;
+}
+.pricing-item::after {
+  content: "";
+
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+}
+
+.pricing-item:hover::after {
+  height: 100%;
+}
+.pricing-item:hover .pricing-item-text {
+  color: red;
+}
+.pricing-item:hover .pricing-item-permonth {
+  color: red;
+  transition: 2s;
+}
+
+.mb-60{
+    margin-bottom: 60px;
+}

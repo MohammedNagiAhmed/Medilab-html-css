@@ -1,0 +1,84 @@
+.welcomes-section {
+
+    margin-top: 300px;
+      
+    }
+    
+    .welcome-title {
+      text-align: center;
+    }
+    
+    .welcome-line {
+      width: 80px;
+      height: 4px;
+      margin: 10px auto 10px;
+      background-color: rgb(128, 139, 236);
+    }
+    .three-cards {
+      width: 80%;
+      margin: 20px auto;
+    }
+    .welcome-content {
+      overflow: hidden;
+      text-align: center;
+     
+    }
+    .welcome-card {
+      border: 1px solid black;
+      position: relative;
+      width: 30%;
+      float: left;
+      padding: 30px 15px 30px 70px;
+     
+    }
+    
+    .welcome-icon {
+      position: absolute;
+      left: 150px;
+      top: 26px;
+      color: #6195ff;
+      font-size: 30px;
+      display: block;
+    }
+    
+    .welcome-card::after {
+      content: "";
+      position: absolute;
+      top: 0;
+     right: 0;
+      width: 0;
+      height: 0;
+      background-color: #333;
+      z-index: 0;
+      /* color: white; */
+    }
+    
+    .welcome-card:hover::after {
+      width: 100%;
+      height: 100%;
+      transition: 0.5s;
+      z-index: -1;
+    }
+
+    
+    .welcome-item-title {
+      text-transform: capitalize;
+      margin-bottom: 15px;
+      transition: 1s;
+      color: #000;
+      margin-top: 50px;
+    }
+    .welcome-paragraph {
+      color: #999;
+      letter-spacing: 1px;
+    }
+    .welcome-card:hover .welcome-item-title {
+      color: white;
+    }
+    
+    .about-item-link{
+        color: #6195ff;
+        text-decoration: none;
+     margin: 0 45;
+        font-size: 20px;
+    }

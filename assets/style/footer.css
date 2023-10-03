@@ -1,0 +1,40 @@
+.footer {
+  background-color: #4c4d52;
+  height: 350px;
+  text-align: center;
+  position: relative;
+  margin-top: 100px;
+}
+.content__footer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 100%;
+}
+.footer-img {
+    width: 200px;
+    height: 150px;
+    margin: 45px auto 0;
+
+}
+
+.footer-img img{
+    width: 100%;
+
+}
+.footer-links{
+    margin: 35px auto;
+}
+.footer-links a i{
+    color: rgb(134, 134, 231);
+    margin: 5px;
+    font-size: 40px;
+}
+.footer-copywrite {
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+}

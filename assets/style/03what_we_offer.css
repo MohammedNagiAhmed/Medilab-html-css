@@ -1,0 +1,81 @@
+.offers-section {
+
+margin-top: 100px;
+margin-bottom: 500px;
+
+  
+}
+
+.offer-title {
+  text-align: center;
+}
+
+.line {
+  width: 80px;
+  height: 4px;
+
+  margin: 0 auto 10px;
+  background-color: aqua;
+}
+.six-cards {
+  width: 80%;
+  margin: 20px auto;
+}
+.offer-content {
+  overflow: hidden;
+}
+.offer-card {
+  border: 1px solid black;
+  position: relative;
+  width: 30%;
+  float: left;
+  padding: 30px 15px 30px 70px;
+  margin-bottom: 20px;
+}
+
+.gem-icon {
+  position: absolute;
+  left: 15px;
+  top: 26px;
+  color: #6195ff;
+  font-size: 40px;
+}
+
+.offer-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-color: #333;
+  z-index: 0;
+  /* color: white; */
+}
+
+.offer-card:hover::after {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  z-index: -1;
+}
+.gem-icon {
+  position: absolute;
+  left: 15px;
+  top: 26px;
+  color: #6195ff;
+}
+
+.offer-item-title {
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  transition: 1s;
+  color: #000;
+}
+.offer-paragraph {
+  color: #999;
+}
+.offer-card:hover .offer-item-title {
+  color: white;
+}
+

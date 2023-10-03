@@ -1,0 +1,94 @@
+.our-team {
+  margin: 100px 0;
+}
+.contener {
+  width: 80%;
+  margin: auto;
+}
+
+.team-card {
+  /* overflow: hidden; */
+}
+
+.team-item {
+  float: left;
+  background-color: rgb(185, 185, 185);
+  width: 30%;
+  padding: 14px 18px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.margin-0-5p {
+  margin: 0px 5%;
+}
+.team-img {
+  width: 90%;
+  margin: auto;
+  position: relative;
+}
+.team-img img {
+  width: 100%;
+}
+.team-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+}
+.team-overlay a {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(108, 108, 240);
+  margin-left: auto;
+}
+.team-overlay a i {
+  line-height: 40px;
+}
+.team-card:hover .team-overlay {
+  visibility: visible;
+  opacity: 0.7;
+}
+.team-item::after {
+  position: absolute;
+
+  content: "";
+
+  width: 0;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  background-color: rgb(3, 3, 3);
+  opacity: 0;
+}
+.team-item:hover::after {
+  width: 50%;
+  height: 100%;
+  opacity: 0.5;
+  transition: 2s;
+}
+
+.team-item::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: rgb(3, 3, 3);
+  opacity: 0;
+}
+.team-item:hover::before {
+  width: 50%;
+  height: 100%;
+  opacity: 0.5;
+  transition: 2s;
+  z-index: 2;
+}
